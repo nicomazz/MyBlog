@@ -20,23 +20,23 @@ title                    : "My Awesome blog"
 title_separator          : "-"
 name                     : "Nicolò Mazzucato"
 description              : "An amazing website."
-url                      : "https://nicomazz.github.io/MyBlog/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+url                      : "https://nicomazz.github.io"
+baseurl                  : "/MyBlog"
+repository               : "nicomazz/MyBlog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/gif/loading.gif" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid                : "263626387613993"
+    num_posts            : 10 # 5 (default)
+    colorscheme          : "dark" # "light" (default), 
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"

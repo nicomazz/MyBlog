@@ -4,8 +4,10 @@ title:  Milky Way as if it were a rainbow
 date:   2018-07-30 16:16:01 -0600
 categories: photography 
 toc: true
+teaser: /assets/images/final_milky_way.jpg
 header:
   image: /assets/images/final_milky_way.jpg
+  overlay_image: /assets/images/final_milky_way.jpg
 ---
 
 
@@ -32,7 +34,7 @@ I've used an external super cheap shooting control and a stopwatch to use a `50 
    To keep the stars as punctual as possible. A lower speed would have caused a startrail.
 
 - **Is `f/2.8` too open? Don't you lose sharpness in this way?**
-   Do you  Yes, it is, but I do not have an astroseeker, so to keep the milky-way so bright, I had no choice.
+   Yes, it is, but I do not have an astroseeker, so to keep the milky-way so bright, I had no choice.
 
 
 ## Step 2: The shooting
