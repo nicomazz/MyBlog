@@ -4,8 +4,10 @@ title:  Milky Way as if it were a rainbow
 date:   2018-07-30 16:16:01 -0600
 categories: photography 
 toc: true
+comments: true
 header:
   image: /assets/images/final_milky_way.jpg
+  teaser: /assets/images/final_milky_way.jpg
 ---
 
 
@@ -55,10 +57,12 @@ Keep in mind to sync the setting across all images, to keep color almost the sam
 ## Step 4: First photoshop attempt to create the panorama
 Select all the images on Lightroom, then select the option to create a panorama in Photoshop.
 After this, this is what i've done:
+
 ![]({{"/assets/gif/photoshop_adjust.gif" | absolute_url}})
 
 ## Step 5: Final corrections in lightroom
 Export the image from photoshop, and open it in Lightroom.
+
 ![]({{"/assets/gif/final_lightroom.gif" | absolute_url}})
 
 
