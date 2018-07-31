@@ -1,17 +1,19 @@
 ---
-layout: posts
+layout: single
 title:  Milky Way as if it were a rainbow
 date:   2018-07-30 16:16:01 -0600
-categories: jekyll update
+categories: photograpy
+toc: true
+header:
+  image: /assets/images/final_milky_way.jpg
 ---
 
 
 
 A picture is worth a thousand words.
-![](/assets/images/final_milky_way.jpg)
 Let's see how to create it!
 
-### Step 1: Camera settings
+## Step 1: Camera settings
 I've used a **Nikon D610** with a **Samyang 14mm** with the following settings: 
 ```
 ISO 1600
@@ -22,31 +24,38 @@ My main problem was finding the point of infinity focus on my lens. You can do i
 
 I've used an external super cheap shooting control and a stopwatch to use a `50 sec` time with the `bulb` shutter speed mode.
 
-*Why not an higher iso value?* Read [This](https://photographylife.com/iso-invariance-explained).
+### Some questions
+- **Why not an higher iso value?** 
+   Read [This](https://photographylife.com/iso-invariance-explained).
 
-*Why not lower speed?* To keep the stars as punctual as possible. A lower speed would have caused a startrail.
+- **Why not lower speed?** 
+   To keep the stars as punctual as possible. A lower speed would have caused a startrail.
 
-*Is `f/2.8` too open? Don't you lose sharpness in this way?*
-Do you  Yes, it is, but I do not have an astroseeker, so to keep the milky-way so bright, I had no choice.
+- **Is `f/2.8` too open? Don't you lose sharpness in this way?**
+   Do you  Yes, it is, but I do not have an astroseeker, so to keep the milky-way so bright, I had no choice.
 
 
-### Step 2: The shooting
+## Step 2: The shooting
 
-Framing well in total darkness is a mess. You do not see anything in the viewfinder. This is the way I use: *shot test images with iso settings at the max value, aperture wide opened, and low shutter speed (~1 sec)*. In this way you can understand what is in front of you, and make some adjustment on the composition.
+Framing well in total darkness is a mess. You do not see anything in the viewfinder. This is the way I use: 
+### A simple tip
+> shot test images with iso settings at the max value, aperture wide opened, and low shutter speed (~1 sec).
+
+In this way you can understand what is in front of you, and make some adjustment on the composition.
 Once everything is ok, you can start the shooting.
 Always remember to check that the focus is ok after the first image.
 
-### Step 3: First preprocessing
+## Step 3: First preprocessing
 Firstly I adjust each image with lightroom more or less in this way:
 ![](/assets/gif/first_preprocessing.gif)
 Keep in mind to sync the setting across all images, to keep color almost the same.
 
-### Step 4: First photoshop attempt to create the panorama
+## Step 4: First photoshop attempt to create the panorama
 Select all the images on Lightroom, then select the option to create a panorama in Photoshop.
 After this, this is what i've done:
 ![](Video url)
 
-### Step 5: Final corrections in lightroom
+## Step 5: Final corrections in lightroom
 Export the image from photoshop, and open it in Lightroom.
 ![](/assets/gif/final_lightroom.gif)
 
