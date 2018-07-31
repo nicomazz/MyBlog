@@ -4,10 +4,8 @@ title:  Milky Way as if it were a rainbow
 date:   2018-07-30 16:16:01 -0600
 categories: photography 
 toc: true
-teaser: /assets/images/final_milky_way.jpg
 header:
   image: /assets/images/final_milky_way.jpg
-  overlay_image: /assets/images/final_milky_way.jpg
 ---
 
 
@@ -49,13 +47,15 @@ Always remember to check that the focus is ok after the first image.
 
 ## Step 3: First preprocessing
 Firstly I adjust each image with lightroom more or less in this way:
+
 ![]({{"/assets/gif/first_preprocessing.gif" | absolute_url}})
+
 Keep in mind to sync the setting across all images, to keep color almost the same.
 
 ## Step 4: First photoshop attempt to create the panorama
 Select all the images on Lightroom, then select the option to create a panorama in Photoshop.
 After this, this is what i've done:
-![](Video url)
+![]({{"/assets/gif/photoshop_adjust.gif" | absolute_url}})
 
 ## Step 5: Final corrections in lightroom
 Export the image from photoshop, and open it in Lightroom.
