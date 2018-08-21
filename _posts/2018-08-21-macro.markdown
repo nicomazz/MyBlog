@@ -106,7 +106,6 @@ Keep the flash as near as possible to the subject.
 
 > If your subject is not still or  you don't have a tripod, you **MUST** use an external flash. If your lens is short, the camera one should be ok.
 
-//todo foto del mio setup
 <figure class="half">
     <a href="/MyBlog/assets/images/fotocamera.jpg"><img src="/MyBlog/assets/images/fotocamera.jpg"></a>
     <a href="/MyBlog/assets/images/lens.jpg"><img src="/MyBlog/assets/images/lens.jpg"></a>
