@@ -48,20 +48,25 @@ gallery:
     title: "Eye"
 
 ---
-#original
-
-Macro lenses cost a lot of money, and they give you only 1:1 magnification ratio.
-If you want something more than this, you have to buy very specific lenses at at prohibitive prices (Like `Canon MP-E 65mm f/2.8 1-5x`).
-
 I do all my great magnification macros with less than 70 € (camera excluded). Here's how I do it!
+
+## The problem
+I've started with `1:1` ratio macro photography. It was good, but not enough. I wanted more magnification. With this technique you can reach even `5:1` ratio. The only other way to reach this ratio is by buying an expensive lens. (like `Canon MP-E 65mm f/2.8 1-5x Macro`, if you have canon)
+
+Putting into practice what I will write here, you will be able to take pictures like these, if not better!
 
 {% include gallery caption="Some of my macro images" %}
 
 ## My setup
 
+<figure class="half">
+    <a href="/MyBlog/assets/images/fotocamera.jpg"><img src="/MyBlog/assets/images/fotocamera.jpg"></a>
+    <a href="/MyBlog/assets/images/lens.jpg"><img src="/MyBlog/assets/images/lens.jpg"></a>
+    <figcaption>My camera setup</figcaption>
+</figure>
 
 ### Standard hardware setup
-- `Nikon D3100` (recently `D610`). Any camera is ok. In this case `APS-C` is better than `FULL-FRAME`, thanks to the 1.5x magnification ratio (read [this](http://www.mdavid.com.au/photography/apscversusfullframe.shtml))
+- `Nikon D3100` (recently `D610`). Any reflex camera is ok, but some are more ok than others. In this case `APS-C` is better than `FULL-FRAME`, thanks to the 1.5x magnification ratio (read [this](http://www.mdavid.com.au/photography/apscversusfullframe.shtml))
 - External flash `YongNuo YN560` (not really necessary if you shot outside under heavy light with a tripod). Better if with a small diffuser.
 
 ### Additions to do macro photography
@@ -79,7 +84,6 @@ At first I was very skeptical about the final results, then after practice and l
 
 So connect the camera with the tubes and the inverted lens, find a spider, use a flash, and the result should look like this:
 
-
 <figure>
 <a href="https://img2.juzaphoto.com/001/shared_files/uploads/1051996_l.jpg"><img src="https://img2.juzaphoto.com/001/shared_files/uploads/1051996_l.jpg"></a>
 <figcaption>One of my first images. Single shot.</figcaption>
@@ -87,7 +91,8 @@ So connect the camera with the tubes and the inverted lens, find a spider, use a
 Ok, it's not that simple actually. Keep reading!
 
 
-### Camera setup
+
+### Camera settings
 Start only with the lens reversed, without extension tubes, to practice a bit.
 Put the camera in `M` mode. You must set the aperture of the lens manually.
 
@@ -96,7 +101,7 @@ I usually set the aperture from `f8` to `f13`. If you'll keep the aperture too o
 For the shutter speed, the setup is complicated. If you use a flash, always put `1/200`. Otherwise, try to do some tests.
 
 
-### Flash setup
+### Flash settings
 If you don't have a tripod, or you can't use one, you **must** use an external flash.
 
 Put it in [slave mode](#every-image-is-too-dark), and set the camera to shot with the flash at the minimum power. If your external flash doesn't have "slave mode", buy some triggers.
@@ -107,15 +112,10 @@ Keep the flash as close as possible to the subject.
 
 > If your subject is not still or  you don't have a tripod, you **MUST** use an external flash. If your lens is short, the camera one should be ok.
 
-<figure class="half">
-    <a href="/MyBlog/assets/images/fotocamera.jpg"><img src="/MyBlog/assets/images/fotocamera.jpg"></a>
-    <a href="/MyBlog/assets/images/lens.jpg"><img src="/MyBlog/assets/images/lens.jpg"></a>
-    <figcaption>My camera setup</figcaption>
-</figure>
-
-## Where do I find subjects?
-Mainly in my house. Small insect are everywhere. Check on plants, or in a wood.
-## How do you take pictures of them if they're never standing still?
+## FAQ
+- Where do you find subjects?
+  Mainly in my house. Small insect are everywhere. Check on plants, or in a wood.
+- How do you take pictures of them if they're never standing still?
 It takes really a lot of time. To spray cold water helps, but not so much. I don't shot to dead insects. Try to go outside at the sunrise (I've never done it).
 
 
@@ -148,7 +148,7 @@ I usually use this torch completely zommed.
   <a href="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"><img src="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"></a>
     <figcaption>The torch I use</figcaption>
 </figure>
-You can find it for less than 10 € from Aliexpress.
+You can find it for less than 10€ from Aliexpress.
 
 
 
