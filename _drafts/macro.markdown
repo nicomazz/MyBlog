@@ -2,7 +2,7 @@
 layout: single
 title:  Poor man's macro photography at high magnifications
 date:   2018-07-30 16:16:01 -0600
-categories: photography 
+categories: photography
 toc: true
 comments: true
 classes: wide
@@ -58,12 +58,12 @@ I do all my great magnification macros with less than 70 € (camera excluded). 
 ## My setup
 
 
-### Standard hardware setup 
+### Standard hardware setup
 - `Nikon D3100` (recently `D610`). Any camera is ok. In this case `APS-C` is better than `FULL-FRAME`, thanks to the 1.5x magnification ratio (read [this](http://www.mdavid.com.au/photography/apscversusfullframe.shtml))
 - External flash `YongNuo YN560` (not really necessary if you shot outside under heavy light with a tripod). Better if with a small diffuser.
 
 ### Additions to do macro photography
-- **Very old manual Canon 28mm f2.8** (paid 30€). 
+- **Very old manual Canon 28mm f2.8** (paid 30€).
 You must check that there's a way to change the aperture completely manually. Usually there is a small lever in the lens attach. I use scotch tape to keep it in the right position.
 - Inversion ring ( < 10 €)
 - Extension tubes (~10 € without contacts)
@@ -71,7 +71,7 @@ You must check that there's a way to change the aperture completely manually. Us
 
 ### Post production tools
 - Lightroom
-- Photoshop 
+- Photoshop
 
 At first I was very skeptical about the final results, then after practice and lens fine tuning, I think I have found the correct formula.
 
@@ -87,7 +87,7 @@ Ok, it's not that simple actually. Keep reading!
 
 ### Camera setup
 Start only with the lens reversed, without extension tubes, to practice a bit.
-Put the camera in `M` mode. You must set the aperture of the lens manually. 
+Put the camera in `M` mode. You must set the aperture of the lens manually.
 
 I usually set the aperture from `f8` to `f13`. If you keep the aperture too open, you will not have enough depth of field ([As I will write](#very-short-depth-of-field)), but you will have more light. If you'll close too much, the image will be too dark and sensor dust will be more visible.
 
@@ -95,7 +95,7 @@ For the shutter speed, the setup is complicated. If you use a flash, always put 
 
 
 ### Flash setup
-If you don't have a tripod, or you can't use one, you **must** use an external flash. 
+If you don't have a tripod, or you can't use one, you **must** use an external flash.
 
 Put it in [slave mode](#every-image-is-too-dark), and set the camera to shot with the flash at the minimum power. If your external flash doesn't have "slave mode", buy some triggers.
 
@@ -115,7 +115,7 @@ It takes really a lot of time. To spray cold water helps, but not so much. I don
 
 ## Focus stack technique
 As I will write [here](#very-short-depth-of-field), one of the main problem, it the short depth of field.
-So I shot a brust of photos of the subject by keeping in focus different parts, and then I stitch them in the following way 
+So I shot a brust of photos of the subject by keeping in focus different parts, and then I stitch them in the following way
 ### My Focus stack workflow
 - Import images in lightroom
 - Fix Image defect like [sensor dust](#sensor-dust)
@@ -125,13 +125,12 @@ So I shot a brust of photos of the subject by keeping in focus different parts, 
 - Align them
 - Photo merge
 - Manual fixes (this could be a very long process)
-  
-//todo mettere gif di come faccio
+
+![]({{"/assets/gif/definition.gif" | absolute_url}})
+
+![]({{"/assets/gif/focus_stack.gif" | absolute_url}})
 
 ## Problems that you will surely find (and their solutions)
-
-
-
 
 ### No visibility in the viewfinder
 
@@ -139,7 +138,7 @@ So I shot a brust of photos of the subject by keeping in focus different parts, 
 The combination of extension tubes, reverse lense, and small aperture will lead you to always see black in the viewfinder.
 I usually use this torch completely zommed.
 <figure>
-  <a href="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"><img src="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"></a> 
+  <a href="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"><img src="https://images-na.ssl-images-amazon.com/images/I/41BCQUWTjfL.jpg"></a>
     <figcaption>The torch I use</figcaption>
 </figure>
 You can find it for less than 10 € from Aliexpress.
@@ -152,7 +151,7 @@ You can find it for less than 10 € from Aliexpress.
 <a href="https://img2.juzaphoto.com/001/shared_files/uploads_hr/896202_large79257.jpg"><img src="https://img2.juzaphoto.com/001/shared_files/uploads_hr/896202_large79257.jpg"></a>
 <figcaption>An example of short depth of field</figcaption>
 </figure>
-When you shot a photo things are sharp between two parallel planes. The distance between these determines the depth of field. With this kind of photography these planes are incredibly close each other, so it's difficult to have all our subject in focus. 
+When you shot a photo things are sharp between two parallel planes. The distance between these determines the depth of field. With this kind of photography these planes are incredibly close each other, so it's difficult to have all our subject in focus.
 
 
 To handle this problem I use a technique called **Focus stack**. It consists in shooting a lot of images, continuously moving the camera back and forth. Then with an appropriate software I keep all the focused part of each image, to recreate the entire subject focused.
@@ -172,7 +171,7 @@ A really big problem with low-end cameras is the [buffer](https://www.lifewire.c
 
 Similar problem for the internal flash charge speed. After some flashes, it must be recharged. To overcome this problem you can use external triggers. (I've never used them)
 
-### Difficulties to keep the subject in focus 
+### Difficulties to keep the subject in focus
 Support yourself with the hand under the lens resting on the wall, table or anything stable and perform very small oscillations.
 
 
@@ -184,9 +183,9 @@ Support yourself with the hand under the lens resting on the wall, table or anyt
 
 
 ### Every image is too dark
-The only solution to this is a **flash**. 
+The only solution to this is a **flash**.
 
-If you have to buy a new one, check that it 
+If you have to buy a new one, check that it
 support **slave mode**, so it can fire when it sees the main camera flash (it works with a light sensor). If you have an old one without this capability, some cheap **triggers** cost ~10 €. I've bought the `YongNuo YN560` for ~50 €, and it's perfect.
 
 > **Don't use the flash mounted on the camera**. Put it directly above the subject. To do this, ask help to a friend, or use a tripod. I've build a support.
@@ -206,7 +205,8 @@ If the subject is still, use a tripod. Otherwise, if you're alone, good luck.
 ### Sensor dust
 You can't get away from sensor dust. All my images initially have a lot of black spots. I remove that in the following way
 
-//todo add gif
+![]({{"/assets/gif/dust_remove.gif" | absolute_url}})
+
 
 ## Useful links and inspirations
 - [My juza profile](www.juzaphoto.com/p/Nicomazz)
