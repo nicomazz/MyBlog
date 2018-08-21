@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  Poor man's macro photography at high magnifications
-date:   2018-07-30 16:16:01 -0600
+title:  Poor man's macro photography
+date:   2018-08-21 14:31:01 -0600
 categories: photography
 toc: true
 comments: true
@@ -46,6 +46,7 @@ gallery:
     image_path: https://img2.juzaphoto.com/001/shared_files/uploads/917242_l.jpg
     alt: "placeholder image 11"
     title: "Eye"
+
 ---
 
 Macro lenses cost a lot of money, and they give you only 1:1 magnification ratio.
@@ -106,6 +107,11 @@ Keep the flash as near as possible to the subject.
 > If your subject is not still or  you don't have a tripod, you **MUST** use an external flash. If your lens is short, the camera one should be ok.
 
 //todo foto del mio setup
+<figure class="half">
+    <a href="/assets/images/fotocamera.jpg"><img src="/assets/images/fotocamera.jpg"></a>
+    <a href="/assets/images/lens.jpg"><img src="/assets/images/lens.jpg"></a>
+    <figcaption>My camera setup</figcaption>
+</figure>
 
 ## Where do I find subjects?
 Mainly in my house. Small insect are everywhere. Check on plants, or in a wood.
@@ -120,15 +126,16 @@ So I shot a brust of photos of the subject by keeping in focus different parts, 
 - Import images in lightroom
 - Fix Image defect like [sensor dust](#sensor-dust)
 - Increase of the sharpness and luminance
+![]({{"/assets/gif/definition.gif" | absolute_url}})
+
 - Export all the images
 - Open them as layers in Photoshop
 - Align them
 - Photo merge
+![]({{"/assets/gif/focus_stack.gif" | absolute_url}})
 - Manual fixes (this could be a very long process)
 
-![]({{"/assets/gif/definition.gif" | absolute_url}})
 
-![]({{"/assets/gif/focus_stack.gif" | absolute_url}})
 
 ## Problems that you will surely find (and their solutions)
 
