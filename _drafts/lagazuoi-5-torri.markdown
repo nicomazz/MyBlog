@@ -17,7 +17,7 @@ The initial intentions were to spend 2 nights in tent on the dolimites, near Cor
 ![]({{"/assets/images/light_pollution.png" | absolute_url}})
 
 ## Long story short
-The weather forecast was really bad. Virtually every day percentages close to 100% of rain. We therefore reserved different options.
+The weather forecast was really bad. Virtually every day percentages were close to 100% of rain. We therefore reserved different options.
 - **Lagazuoi**: With its 2800m it was also the most dangerous destination in the event of storms. So we decided to go here for the first night ¯\\_(ツ)_/¯
 - **5 Torri**: 2200m, near Lagazuoi, from "Rifugio Scoiattoli". We spent our second night here, under an incessant hail. We were not able to see the 5 towers before the next morning.
 - **Sorapis Lake**: The camping or bivouac is strictly prohibited here, with many signs and indications of fines. We therefore decided to go there only on the afternoon of the second day.
@@ -26,7 +26,7 @@ The weather forecast was really bad. Virtually every day percentages close to 10
 
 ### Day 1 - Lagazuoi
 - Arrive at Lagazuoi cableway here: [46.519492, 12.008374](https://goo.gl/maps/k4Yn7Rve4bx). Follow direction for Passo di Falzarego.
-- Now you have 2 choices. we have chosen the second one
+- Now you have 2 choices. We have chosen the second one
     + **The easy way**: take the cableway (11€). Last trip at 16:40 (we arrived at 16:37).
     + **The not so easy way**: go by walk. Precisely 2h. Tested. 
 - Eat at Lagazuoi refuge (~13€ each)
@@ -50,14 +50,14 @@ In the last image is clearly visible a green spot. I think it could be aurora bo
 ![]({{"/assets/images/lagazuoi_wakeup.jpg" | absolute_url}})
 
 - Breakfast at Lagazuoi refuge
-- Destination Sorapis Lake. you have to find parking [here](https://goo.gl/maps/BFWw3qWKWTC2) (Good luck!). We stopped at Cortina to buy something to eat (go [here](https://goo.gl/maps/557AReqY9L92))
+- Destination Sorapis Lake. You have to find parking [here](https://goo.gl/maps/BFWw3qWKWTC2) (Good luck!). We stopped at Cortina to buy something to eat (go [here](https://goo.gl/maps/557AReqY9L92))
 - 2h to arrive at the lake, 1:50h to return back. As it was all wet, it was not so easy, but doable. 
 
 ![]({{"/assets/images/sorapis.jpg" | absolute_url}})
 
-- We had dinner at 5 torri refugee. You can arrive there by car, but the street is not so easy. You must book to eat here. Meanwhile it started to rain very heavy.
-- From 5 torri refugee to scoiattoli is about 20 minutes. Very near.
-- As we arrived in front of Scoiattoli refugee we were in the middle of very thick fog. We were in front of the 5 towers, but we were not able to see them. We fastly mounted our tents, when it started to to hail. the hail will not stop all night. 0 photos here, since the gray sunrise.
+- We had dinner at 5 torri refuge. You can arrive there by car, but the street is not so easy. You must book to eat here. Meanwhile it started to rain very heavy.
+- From 5 torri refuge to Scoiattoli is about 20 minutes. Very near.
+- As we arrived in front of Scoiattoli refuge we were in the middle of very thick fog. We were in front of the 5 towers, but we were not able to see them. We fastly mounted our tents, when it started to to hail. The hail didn't stop all night. 0 photos here, since the gray sunrise.
 
 ![]({{"/assets/images/scoiattoli_tents.jpg" | absolute_url}})
 
