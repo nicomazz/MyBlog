@@ -183,3 +183,17 @@ pwned!
 ```
 
 As we can see, the number 42 fulfill all the previous condition, and make the binary to spawn a shell.  
+
+
+### Serial key cracking
+
+Let’s examine a real life example. It consists in the mechanism of serial key validation of an old computer game.
+The binary used by this tutorial can be found here: //todo add url
+Let’s try to execute our binary:
+
+```
+$ ./starcrack         
+Please enter your 13-digit CD-key located on the back of your StarCrack CD case.
+CD-key: 123
+You entered an invalid CD-key.
+```
