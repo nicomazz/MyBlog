@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Take an L - CSAW 2018 writeup
-date:   2018-07-30 16:16:01 -0600
+date:   2018-09-16 01:14:12 +0100
 categories: programming 
 toc: true
 comments: true
