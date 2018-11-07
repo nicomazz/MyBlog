@@ -6,7 +6,7 @@ categories: programming
 comments: true
 ---
 
-The description of the challange was
+The description of the challenge was
 
 ```
 Take an L
