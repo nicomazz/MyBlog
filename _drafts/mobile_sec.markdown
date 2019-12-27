@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Mobile security study
+title:  Mobile security for busy people
 date:   2019-11-13 23:29:25  +0100
 categories: security 
 comments: true
@@ -156,4 +156,132 @@ dz> run scanner.provider.injection -a com.mwr.example.sieve
 They can be queried directly with adb (eg. `$ adb shell content query --uri content://com.owaspomtg.vulnapp.provider.CredentialProvider/credentials`), and modifiyed with drozer.
 
 
-### Backup MSTG-STORAGE-8
+### Backup options
+
+- `adb backup` creates a full backup app's data directory (USB debugging has to be enabled). 
+  - The `allowBackup` flag has to be enabled in the manifest. (it is by default)
+  - `dd if=mybackup.ab bs=24 skip=1|openssl zlib -d > mybackup.tar` to have a tar from the .ab file
+- Online backup
+- Backup API: key/values backups (max 5MB) or auto backups (max 25MB using user's Google drive account)
+
+### Avoid screenshot for the task manager
+
+Using this, it is impossible to capture screenshots.
+
+```java
+getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE);
+```
+
+###  Sensitive data in memory
+
+If you have to deal with secret keys, or buffers with secret information, it is better not to use `StringBuffers`, because after the use the data will stick somewhere, and it is hard to delete them.
+
+In general, it is impossible to clear immutable types: as a consequence they will remain around until the GC will clear them. It is better to use primitive types, and then clear them soon after the usage.
+
+Another interesting thi bong is that, even if the secret data array is cleared, it is possible that the bytecode optimizer doesn't really do the clear stage, because the array is never used afterwards.
+
+To gather the memory dump it iis possible to use `objection` or `Fridump`. More info on how to do a memory dump [here](https://mobile-security.gitbook.io/mobile-security-testing-guide/android-testing-guide/0x05c-reverse-engineering-and-tampering#memory-dump).
+However, it is also possible to use Android Studio to dump and analize the Java Heap.
+
+Further analysis, also with a SQL-like language can be done with Eclipse Memory Analyzer Tool (MAT). eg:
+```sql
+SELECT * FROM byte[] b WHERE toString(b).matches(".*1\.2\.840\.113549\.1\.1\.1.*")
+```
+
+## Android Cryptographic APIs
+
+### Random number generator
+
+`SecureRandom` should be used without any arguments in the constructor. If the default java random with a number in the construction is used, then it is possible to guess the numbers.
+
+..There are many other things that can be useful
+
+
+## Android Network API
+
+### todo
+
+## Android Platform API
+
+### Permissions
+
+Apps must explicitly request access to resources and data that are outside their sandbox trought specific permissions such as INTERNET, RECORD_AUDIO, ACCESS_MOCK_LOCATION, ACCESS_DOWNLOAD_MANAGER.
+
+- It is possible to give permissions to activities, services and broadcast receivers. This restricts which apps can use the components. If they don't have the needed permissions, a `SecurityException` is thrown.
+- For content providers, there is `android:readPermission` and `android:writePermission`. ContentProviders also extends the default permission model, allowing specific permissions for each URI.
+
+#### Custom permissions
+
+It is possible to create custom permissions: an example can be a new permission needed to lunch a specific activity.
+
+```xml
+<permission android:name="com.example.myapp.permission.START_MAIN_ACTIVITY"
+        android:label="Start Activity in myapp"
+        android:description="Allow the app to launch the activity of myapp app, any app you grant this permission will be able to launch main activity by myapp app."
+        android:protectionLevel="normal" />
+
+<activity android:name="TEST_ACTIVITY"
+    android:permission="com.example.myapp.permission.START_MAIN_ACTIVITY">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER"/>
+     </intent-filter>
+</activity>
+```
+
+It is possible to use the Android Asset Packaging tool (aapt) to examine the permissions needed from a package: `adb shell pm list packages -f | grep -i <keyword>`, or, with a more detailed result: `adb shell dumpsys package sg.vp.owasp_mobile.omtg_android | grep permission`.
+With Drozer, it is possible to list all the info (and permissions): `dz> run app.package.info -a com.android.mms.service`.
+It is possible to enforce the permissions also at runtime, but dynamic instrumentation might overpass the check very easily.
+
+### Injection flaws
+
+Functionalities can be exposed to
+
+- Other apps, through IPC mechanisms
+- the user, through the UI
+
+An example of library that can be used to validate things in the ui (such as inputs) s [saripaar](https://github.com/ragunathjawahar/android-saripaar)
+
+### Fragment injection
+
+The intent to start a `PreferenceActivity` receives the name and the paramenters of the fragment to show inside as text and bundle respectively, and reflection is used to instantiate the fragment.
+   In this way an attacker can load an arbitrary class in the context of another application (that exports the vulnerable activity). Things are fixed if targetSdkVersion is more or equal than 19. With target < 19 the issue can be fixed with `isValidFragment`.
+
+### URL schemes
+
+With drozer is possible to scan all the URI available for each app.
+```
+dz> run scanner.activity.browsable -a com.google.android.apps.messaging
+```
+
+### Instant app
+
+To discover if an app has an instant component, search for `dist:module dist:instant="true"` in the manifest.
+To enable instant app support things have to be done. Refer to the dynamic analysis of the main guide. The `ia` executable is used.
+
+### Functionality exposure through IPC
+
+There are the standard IPC techqniques, such as using shared files or network sockets, or mobile specific things, that offer performance improvements.
+
+If there is an intent-filter, otherwise specified, the exported flag is set to true, and the app component will be accessible form other apps.
+
+For an exported service, we can look at the `handleMessage(Message msg)` method.
+
+
+## things to research more
+
+- [ ] signature only permissions
+- [ ] where an app can read and write, and how to modify those paths
+- [ ] What is a Binder exactly?
+- [ ] Something more about Zygote?
+- [ ] check the content provider class
+- [x] when an activity can be launched from outside the appliction that defines it?
+   The exported property of the activity must be set to true. If the activity uses intent filters, and this value is set to false, then an exception is thrown.
+- [x] What is an intent filter
+- [ ] check better how the signing is handled (seems important from the message)
+- [ ] singleTask (or, tasks in general)
+- [ ] `android:process=":remote"`
+-------------------------
+## Fist interview passed. new things to research, other then the ones listed above
+- [ ] What is OAuth2?
