@@ -268,6 +268,34 @@ If there is an intent-filter, otherwise specified, the exported flag is set to t
 
 For an exported service, we can look at the `handleMessage(Message msg)` method.
 
+### Services
+
+There are two kind of services:
+- Normal
+- Bounded
+If exported, everybody can use them. The bounded is running as long as there are
+other components connected, while the other until the stop method is called.
+If a comontent wants to bound with a service, it sould have the class needed to
+represents the objects to exchange. Since those objects implement `Parcelable`,
+**it is needed to take care with the unmarshalling** and do validation.
+
+### WebView
+
+The WebView cache is not shared with the native browser or other apps. WebKit is
+used as rendering engine.
+- To check: `setJavaScriptEnabled(true)`. This increase the attack surface of
+  the app. If so, it is better that:
+   - HTTPS to protect the html and js from tampering
+   - js and https loaded locally
+   - the user can't define what to load
+- It is possible to add a jsInterface. In this way, from the js in the webview
+  will be possible to interact with the java code. Before API 17 in this way was
+  possible to access all the java object methods. Afterwards, only the ones with
+  the annotation @JavascriptInterface
+
+
+### Object serialization
+
 
 ## things to research more
 
