@@ -294,7 +294,20 @@ used as rendering engine.
   the annotation @JavascriptInterface
 
 
-### Object serialization
+## Android platform security paper
+
+Here a few notes from the [Android platform
+security](https://arxiv.org/pdf/1904.05572.pdf) paper. This paper is often
+updated: the current version covers up until Android 9.
+
+The consent model of android is that *an action should only happen if all
+involved parties consent to it*.
+
+> Unrelated but interesting. There are OEMs (Original equipment manufacturers)
+> and ODMs (Original device Manufacturers). The former buys from the latter the
+> design and hardware of the devices, because often the OEM doesn't have the
+> technical expertise for it.
+
 
 
 ## things to research more
